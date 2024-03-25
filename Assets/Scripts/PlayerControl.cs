@@ -34,10 +34,10 @@ public class PlayerControl : MonoBehaviour
 
         //Player left and right flipping
         if (horizontalInput > 0.01f)
-            transform.localScale = new Vector3(0.5f, 0.9f, 1);
+            transform.localScale = new Vector3(0.5f, 0.5f, 1);
 
         else if (horizontalInput < -0.01f)
-            transform.localScale = new Vector3(-0.5f, 0.9f, 1);
+            transform.localScale = new Vector3(-0.5f, 0.5f, 1);
 
         // Character moving
         body.velocity = new Vector2(horizontalInput * speed, body.velocity.y);
@@ -46,6 +46,7 @@ public class PlayerControl : MonoBehaviour
         {
             // Immediately jump once on the ground
             body.velocity = new Vector2(body.velocity.x, jump);
+            anim.SetTrigger("Jump");
         }
 
 
