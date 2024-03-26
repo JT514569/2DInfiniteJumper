@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TarodevController;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
@@ -13,6 +14,12 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float jump;
     private float horizontalInput;
+
+    [SerializeField] private AudioSource HurtSound;
+    [SerializeField] private float Invulnerability;
+    [SerializeField] private float InvinFlashes;
+    [SerializeField] private float InvinSeconds;
+    public SpriteRenderer spriteRend;
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -58,6 +65,28 @@ public class PlayerControl : MonoBehaviour
         //Check if the player is touching a ground layer object. If so, bool equals true.
         RaycastHit2D raycastHit = Physics2D.BoxCast(col.bounds.center, col.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
+    }
+
+    public void Damage(float _damage)
+    {
+        StartCoroutine(Invulnerable());
+        HurtSound.Play();
+    }
+
+    private IEnumerator Invulnerable()
+    {
+        Physics2D.IgnoreLayerCollision(10, 11, true);
+
+
+        for (int i = 0; i < InvinFlashes; i++)
+        {
+            spriteRend.color = new Color(1, 0, 0, 0.5f);
+            yield return new WaitForSeconds(InvinSeconds);
+            spriteRend.color = Color.white;
+            yield return new WaitForSeconds(InvinSeconds);
+        }
+        //Invulnerableness
+        Physics2D.IgnoreLayerCollision(10, 11, false);
     }
 
 }
