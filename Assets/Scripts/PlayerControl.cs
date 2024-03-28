@@ -67,10 +67,11 @@ public class PlayerControl : MonoBehaviour
         return raycastHit.collider != null;
     }
 
-    public void Damage(float _damage)
+    public void Damage(int _damage)
     {
         StartCoroutine(Invulnerable());
         HurtSound.Play();
+        Score.instance.AddPoint(_damage * -1);
     }
 
     private IEnumerator Invulnerable()

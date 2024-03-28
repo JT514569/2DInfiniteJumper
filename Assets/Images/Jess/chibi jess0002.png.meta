@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chibi jess0002_0: 3223943562324885485
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

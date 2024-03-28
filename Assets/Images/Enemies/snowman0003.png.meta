@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      snowman0003_0: -7080810913893416455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
