@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class RankCheck : MonoBehaviour
 {
+    [SerializeField] public int ScoreC;
+    [SerializeField] public int ScoreB;
+    [SerializeField] public int ScoreA;
+    [SerializeField] public int ScoreS;
+
     // Start is called before the first frame update
     void Start()
     {
