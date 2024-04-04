@@ -14,8 +14,10 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float jump;
     private float horizontalInput;
+    
 
-    [SerializeField] private AudioSource HurtSound;
+    [SerializeField] private AudioSource hurtSound;
+    [SerializeField] private AudioSource jumpSound;
     [SerializeField] private float Invulnerability;
     [SerializeField] private float InvinFlashes;
     [SerializeField] private float InvinSeconds;
@@ -54,6 +56,7 @@ public class PlayerControl : MonoBehaviour
             // Immediately jump once on the ground
             body.velocity = new Vector2(body.velocity.x, jump);
             anim.SetTrigger("Jump");
+            jumpSound.Play();
         }
 
 
@@ -70,7 +73,7 @@ public class PlayerControl : MonoBehaviour
     public void Damage(int _damage)
     {
         StartCoroutine(Invulnerable());
-        HurtSound.Play();
+        hurtSound.Play();
         Score.instance.AddPoint(_damage * -1);
     }
 
