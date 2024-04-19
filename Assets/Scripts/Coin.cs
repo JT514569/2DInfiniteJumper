@@ -12,7 +12,7 @@ public class Coin : MonoBehaviour
         {
             Score.instance.AddPoint(ScoreGet);
             AudioSource.PlayClipAtPoint(coinSound, transform.position); //Creates a seperate audio source to play the sound
-            gameObject.SetActive(false);
+            Destroy(gameObject);
         }
     }
 }
