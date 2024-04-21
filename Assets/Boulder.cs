@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boulder : MonoBehaviour
 {
     Renderer render;
+    public AudioClip fallSound;
     [SerializeField] private float speed = 0;
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class Boulder : MonoBehaviour
             float movementSpeed = speed * Time.deltaTime;
             speed += -0.01f;
             transform.Translate(0, movementSpeed, 0);
+
         }
     }
 
@@ -29,6 +31,11 @@ public class Boulder : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnBecomeVisible()
+    {
+        AudioSource.PlayClipAtPoint(fallSound, transform.position);
     }
 
 }

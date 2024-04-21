@@ -8,6 +8,8 @@ public class Teleporter : MonoBehaviour
     public Transform Teleport1;
     public Transform Teleport2;
     public GameObject Player;
+    public AudioClip YaySound;
+    public AudioClip NaySound;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,10 +25,12 @@ public class Teleporter : MonoBehaviour
         if (Reward == true)
         {
             Player.transform.position = Teleport1.transform.position;
+            AudioSource.PlayClipAtPoint(YaySound, Player.transform.position);
         }
         else
         {
             Player.transform.position = Teleport2.transform.position;
+            AudioSource.PlayClipAtPoint(NaySound, Player.transform.position);
         }
     }
 }

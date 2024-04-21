@@ -195,7 +195,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Note-removebg-preview_0: -1944794896318796369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
