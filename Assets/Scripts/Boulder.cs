@@ -7,6 +7,8 @@ public class Boulder : MonoBehaviour
     Renderer render;
     public AudioClip fallSound;
     [SerializeField] private float speed = 0;
+    [SerializeField] private float speedIncrease = -0.01f;
+    [SerializeField] private float horizontalSpeed = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +21,9 @@ public class Boulder : MonoBehaviour
         if (render.isVisible)
         {
             float movementSpeed = speed * Time.deltaTime;
+            float movementSpeed2 = horizontalSpeed * Time.deltaTime;
             speed += -0.01f;
-            transform.Translate(0, movementSpeed, 0);
+            transform.Translate(movementSpeed2, movementSpeed, 0);
 
         }
     }
