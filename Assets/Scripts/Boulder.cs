@@ -7,7 +7,6 @@ public class Boulder : MonoBehaviour
     Renderer render;
     public AudioClip fallSound;
     [SerializeField] private float speed = 0;
-    [SerializeField] private float speedIncrease = -0.01f;
     [SerializeField] private float horizontalSpeed = 0;
     // Start is called before the first frame update
     void Start()

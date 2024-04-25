@@ -27,7 +27,6 @@ public class PlayerControl : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         col = GetComponent<BoxCollider2D>();
-        float _time;
 
     }
 
