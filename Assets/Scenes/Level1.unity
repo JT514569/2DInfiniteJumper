@@ -9434,9 +9434,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelBegin
       objectReference: {fileID: 0}
+    - target: {fileID: 830799541790022190, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 652.6162
+      objectReference: {fileID: 0}
+    - target: {fileID: 830799541790022190, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1311211755758283635, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313683438339550883, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_Text
+      value: Hill of Nature
+      objectReference: {fileID: 0}
+    - target: {fileID: 4393291321222050967, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_Text
+      value: Hill of Nature
       objectReference: {fileID: 0}
     - target: {fileID: 4596796715194339266, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
       propertyPath: m_Pivot.x
@@ -9516,6 +9532,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4596796715194339266, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223665249932595169, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 652.6162
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223665249932595169, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
