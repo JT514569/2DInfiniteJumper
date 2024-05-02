@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8184c8981f3b53a4fbe4ce4905ccc3ad
+guid: d85f1092154aa584d90eda1a422c8e86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -435823120278863190
-    second: ghost plant0004_0
+      213: -2373934169585409857
+    second: shadow tree0005_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ghost plant0004_0
+      name: shadow tree0005_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 179
-        height: 152
+        width: 817
+        height: 721
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa240e26e25a3f9f0800000000000000
-      internalID: -435823120278863190
+      spriteID: fb023bd43771e0fd0800000000000000
+      internalID: -2373934169585409857
       vertices: []
       indices: 
       edges: []
