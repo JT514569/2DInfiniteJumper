@@ -14,6 +14,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float jump;
     private float horizontalInput;
+    private bool invincible = false;
     
 
     [SerializeField] private AudioSource hurtSound;
@@ -71,13 +72,18 @@ public class PlayerControl : MonoBehaviour
 
     public void Damage(int _damage)
     {
-        StartCoroutine(Invulnerable());
-        hurtSound.Play();
-        Score.instance.AddPoint(_damage * -1);
+        if (!invincible)
+        {
+            StartCoroutine(Invulnerable());
+            hurtSound.Play();
+            Score.instance.AddPoint(_damage * -1);
+        }
+
     }
 
     private IEnumerator Invulnerable()
     {
+        invincible = true;
         Physics2D.IgnoreLayerCollision(10, 11, true);
 
 
@@ -90,6 +96,7 @@ public class PlayerControl : MonoBehaviour
         }
         //Invulnerableness
         Physics2D.IgnoreLayerCollision(10, 11, false);
+        invincible = false;
     }
 
 }
