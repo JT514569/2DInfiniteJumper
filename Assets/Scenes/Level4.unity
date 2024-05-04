@@ -1717,6 +1717,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4944644
       objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
       value: 1.7797341
@@ -2286,6 +2294,14 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
@@ -6304,6 +6320,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4944644
       objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
       value: 1.7797341
@@ -7148,6 +7172,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4944644
       objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
       value: 1.7797341
@@ -7400,6 +7432,14 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
@@ -8965,10 +9005,6 @@ PrefabInstance:
       value: GhostEnemy (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: speed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2088535526}
@@ -8983,22 +9019,6 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.x
-      value: 1.7797341
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.y
-      value: 2.205263
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.14794442
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.058755994
       objectReference: {fileID: 0}
     - target: {fileID: 8715240689884427200, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11130,10 +11150,6 @@ PrefabInstance:
       value: GhostEnemy (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: speed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2088535526}
@@ -11152,22 +11168,6 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.x
-      value: 1.7797341
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.y
-      value: 2.205263
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.14794442
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.058755994
       objectReference: {fileID: 0}
     - target: {fileID: 8715240689884427200, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12630,6 +12630,14 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 0.4944644
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
       objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
@@ -15606,10 +15614,6 @@ PrefabInstance:
       value: GhostEnemy (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: speed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2088535526}
@@ -15628,22 +15632,6 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.x
-      value: 1.7797341
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.y
-      value: 2.205263
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.14794442
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.058755994
       objectReference: {fileID: 0}
     - target: {fileID: 8715240689884427200, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18418,6 +18406,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4944644
       objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
       value: 1.7797341
@@ -18827,6 +18823,10 @@ PrefabInstance:
     - target: {fileID: 3530080258393389395, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
@@ -19496,6 +19496,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.4944644
       objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Pitch
+      value: -0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: m_Volume
+      value: 0.096
+      objectReference: {fileID: 0}
     - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_Size.x
       value: 1.7797341
@@ -19793,10 +19801,6 @@ PrefabInstance:
       value: GhostEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: speed
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2773942803322818677, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2088535526}
@@ -19812,21 +19816,9 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.x
-      value: 1.7797341
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Size.y
-      value: 2.205263
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.14794442
-      objectReference: {fileID: 0}
-    - target: {fileID: 6358464424308882432, guid: fcc5a303178046a458259808dee3a03b, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.058755994
+    - target: {fileID: 6119427637643973942, guid: fcc5a303178046a458259808dee3a03b, type: 3}
+      propertyPath: Mute
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8715240689884427200, guid: fcc5a303178046a458259808dee3a03b, type: 3}
       propertyPath: m_LocalPosition.x
