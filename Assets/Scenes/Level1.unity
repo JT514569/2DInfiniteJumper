@@ -1671,7 +1671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: b1cb28ff0bedc4a4ebf369ee2b67fd57, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 92d909e07e6994e47937084076d91db6, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -9595,6 +9595,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8526895607087779134, guid: 6eaa4bf2c87c78b4897c4a892eabc1e6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1041173566777161418, guid: f30d82c3eb26bb043920b0e9404ad910, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
