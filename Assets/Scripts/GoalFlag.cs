@@ -5,6 +5,7 @@ using UnityEngine;
 public class GoalFlag : MonoBehaviour
 {
     public GameObject Winner;
+    public GameObject InstaRestart;
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,6 +13,7 @@ public class GoalFlag : MonoBehaviour
         {
             Time.timeScale = 0;
             Winner.SetActive(true);
+            InstaRestart.SetActive(false);
         }
     }
 }

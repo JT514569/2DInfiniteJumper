@@ -13255,6 +13255,10 @@ PrefabInstance:
       propertyPath: Winner
       value: 
       objectReference: {fileID: 834538326}
+    - target: {fileID: 7831994356900151654, guid: 074b25871903cc546bfd2b2c19832761, type: 3}
+      propertyPath: InstaRestart
+      value: 
+      objectReference: {fileID: 5665585020357423004}
     - target: {fileID: 9134773505270728269, guid: 074b25871903cc546bfd2b2c19832761, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6
@@ -13570,6 +13574,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 801fbb4219e64674b99d50fc6d551615, type: 3}
+--- !u!1 &5665585020357423004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5461205711654244139, guid: 801fbb4219e64674b99d50fc6d551615, type: 3}
+  m_PrefabInstance: {fileID: 5665585020357423003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5696649619424989704
 PrefabInstance:
   m_ObjectHideFlags: 0
