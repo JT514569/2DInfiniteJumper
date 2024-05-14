@@ -2749,8 +2749,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jess wants to climb BIG mountains for fun! There's dangerous stuff on the
-    mountains, however. Help Jess get to the goal flag on top of the mountains!
+  m_Text: Jesse wants to climb BIG mountains for fun! There's dangerous stuff on
+    the mountains, however. Help Jesse get to the goal flag on top of the mountains!
 --- !u!222 &1356266554
 CanvasRenderer:
   m_ObjectHideFlags: 0

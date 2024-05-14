@@ -13910,6 +13910,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1756629882714965844, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
+      propertyPath: m_Text
+      value: the number is less than 8.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762660701652748133, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 137.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762660701652748133, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 40.2675
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762660701652748133, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11.286
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762660701652748133, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -58.9865
+      objectReference: {fileID: 0}
     - target: {fileID: 5344019241243913111, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
       propertyPath: m_Name
       value: TeleportMinigame

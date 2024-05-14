@@ -15,6 +15,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float jump;
     private float horizontalInput;
     private bool invincible = false;
+    public GameObject PostProcess;
     
 
     [SerializeField] private AudioSource hurtSound;
@@ -90,8 +91,10 @@ public class PlayerControl : MonoBehaviour
         for (int i = 0; i < InvinFlashes; i++)
         {
             spriteRend.color = new Color(1, 0, 0, 0.5f);
+            PostProcess.SetActive(true);
             yield return new WaitForSeconds(InvinSeconds);
             spriteRend.color = Color.white;
+            PostProcess.SetActive(false);
             yield return new WaitForSeconds(InvinSeconds);
         }
         //Invulnerableness
