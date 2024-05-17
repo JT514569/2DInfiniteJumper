@@ -13942,6 +13942,10 @@ PrefabInstance:
       propertyPath: Teleporter
       value: 
       objectReference: {fileID: 2000615622}
+    - target: {fileID: 8272713735258400898, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
+      propertyPath: m_Text
+      value: the passcode is bigger than 5.
+      objectReference: {fileID: 0}
     - target: {fileID: 8852074422209699113, guid: 26189f4b758faf34fb1477ab259f6363, type: 3}
       propertyPath: m_Pivot.x
       value: 0
